@@ -42,25 +42,6 @@ for i in os.listdir(directory):
                 os.remove(loc)
                 acao += 1
 
-                # if acao == 1:
-                #     item1 = i
-                # elif acao == 2:
-                #     item2 = i
-                # elif acao == 3:
-                #     item3 = i
-                # elif acao == 4:
-                #     item4 = i
-                # elif acao == 5:
-                #     item5 = i
-                # elif acao == 6:
-                #     item6 = i
-                # elif acao == 7:
-                #     item7 = i
-                # elif acao == 8:
-                #     item8 = i
-                # elif acao == 9:
-                #     item9 = i
-
                 shutil.move(tmp+all, loc)
 
 print("adicionados:" + '\n'.join(map(str, items_current)))
